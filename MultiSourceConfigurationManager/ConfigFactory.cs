@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MultiSourceConfigurationManager
 {
-    public static class Factory
+    public static class ConfigFactory
     {
         private static List<IWrapConfiguration> _configs = new List<IWrapConfiguration>();
         public static void Init(params IWrapConfiguration[] configs)

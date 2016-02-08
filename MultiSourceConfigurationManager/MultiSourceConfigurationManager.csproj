@@ -45,10 +45,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AzureConfiguration.cs" />
-    <Compile Include="EnvironmentVariableConfiguration.cs" />
+    <Compile Include="SystemEnvironmentVariableConfiguration.cs" />
     <Compile Include="Factory.cs" />
     <Compile Include="IWrapConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserEnvironmentVariableConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
