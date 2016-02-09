@@ -13,8 +13,8 @@ namespace Runner
         {
 
             ConfigFactory.Init(new UserEnvironmentVariableConfiguration(), 
-                         new SystemEnvironmentVariableConfiguration(), 
-                         new AzureConfiguration());
+                            new SystemEnvironmentVariableConfiguration(), 
+                            new AzureConfiguration());
 
             Console.WriteLine(ConfigFactory.GetValue("foo") ?? "NOTHING for foo");
 
